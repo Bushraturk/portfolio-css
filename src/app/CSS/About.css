@@ -1,0 +1,40 @@
+#about {
+  color: white;
+  padding: 5rem;
+}
+h2 {
+  font-size: 10rem;
+  font-weight: 1000;
+  font-style: italic;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+p {
+  font-size: x-large;
+  font-style: normal;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
+@media (max-width:786) {
+  #about {
+    color: white;
+    padding: auto;
+    display: inline;
+  }
+
+  h2 {
+    font-size: xx-large;
+    padding: 1rem;
+    padding-right: 2rem;
+  }
+
+  p {
+    position: absolute;
+    font-size: large;
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+}
